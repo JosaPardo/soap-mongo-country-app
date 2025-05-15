@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    background-color: #ffffff;
+}
+th {
+    background-color: #ffffff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tabla-scroll {
+    max-height: 550px;  
+    overflow-y: auto;
+    border: 1px solid #333;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
